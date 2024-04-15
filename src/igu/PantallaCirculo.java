@@ -5,7 +5,7 @@
  */
 package igu;
 
-import logica.Circulo;
+import clases.Circulo;
 
 
 /**

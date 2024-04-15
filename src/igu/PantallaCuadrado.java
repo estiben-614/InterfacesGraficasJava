@@ -5,8 +5,8 @@
  */
 package igu;
 
-import logica.Circulo;
-import logica.Cuadrado;
+import clases.Circulo;
+import clases.Cuadrado;
 
 
 /**

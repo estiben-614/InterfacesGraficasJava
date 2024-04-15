@@ -6,7 +6,7 @@
 package igu;
 
 
-import logica.Rectangulo;
+import clases.Rectangulo;
 
 
 /**

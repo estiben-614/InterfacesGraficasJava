@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package logica;
+package clases;
 
-public class Cuadrado {
-    int lado;
+public class Rectangulo {
+    int base, altura;
     
-    public Cuadrado(int lado){
-        this.lado=lado;
+    public Rectangulo(int base, int altura){
+        this.base=base;
+        this.altura=altura;
     }
     
     public double calcularArea(){
-        return lado*lado;
+        return base*altura;
     }
     
     public double calcularPerimetro(){
-        return 4*lado;
+        return (2*base)+(2*altura);
     }
-        
 }
